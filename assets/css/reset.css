@@ -7,10 +7,11 @@
     box-sizing: border-box;
 }
 /*
-    2. Remove default margin
+    2. Remove default spacing
 */
 * {
     margin: 0;
+    padding: 0;
 }
 /*
     Typographic tweaks!
