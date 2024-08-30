@@ -1,0 +1,9 @@
+.container {
+    padding-inline: 1rem;
+    max-inline-size: 1080px;
+    margin-inline: auto;
+}
+
+main {
+    padding-block: 2rem;
+}
