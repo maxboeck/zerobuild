@@ -54,10 +54,3 @@ h5,
 h6 {
     overflow-wrap: break-word;
 }
-
-/*
-    8. Hide iFrame in HTML Imports
-*/
-import-html iframe {
-    display: none;
-}

@@ -1,4 +1,4 @@
-import './import-html.js'
+import './html-include.js'
 
 if (document.querySelector('#app')) {
     import('./app.js')
