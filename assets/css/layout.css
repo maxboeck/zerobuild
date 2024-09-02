@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .container {
     padding-inline: 1rem;
     max-inline-size: 1080px;
@@ -5,5 +11,7 @@
 }
 
 main {
+    width: 100%;
     padding-block: 2rem;
+    flex: 1 0 auto;
 }

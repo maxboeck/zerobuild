@@ -1,5 +1,6 @@
 @layer default, layout, components, utils, theme;
 
+@import 'https://unpkg.com/open-props' layer(default);
 @import 'reset.css' layer(default);
 @import 'base.css' layer(default);
 @import 'layout.css' layer(layout);
