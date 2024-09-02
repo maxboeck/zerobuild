@@ -1,4 +1,4 @@
-class ImportElementHandler {
+class HTMLIncludeElementHandler {
     constructor(origin) {
         this.origin = origin
     }
@@ -42,8 +42,8 @@ export default {
 
         const origin = new URL(request.url).origin
         const rewriter = new HTMLRewriter().on(
-            'import-html',
-            new ImportElementHandler(origin)
+            'html-include',
+            new HTMLIncludeElementHandler(origin)
         )
 
         return rewriter.transform(response)
